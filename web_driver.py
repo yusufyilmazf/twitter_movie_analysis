@@ -18,7 +18,7 @@ driver.get("####")
 
 input("Press Enter To Continue...")
 get_data()
-film_name_tag = driver.find_elements(By.TAG_NAME, 'h4')
+film_name_tag = driver.find_elements(By.TAG_NAME, '####')
 
 for k in film_name_tag:
         print(k.text)
