@@ -14,7 +14,7 @@ auth = tweepy.OAuth1UserHandler(
 
 api = tweepy.API(auth)
 
-tweets = api.search_tweets("turkey", tweet_mode="extended")
+tweets = api.search_tweets("####", tweet_mode="####")
 
 for tweet in tweets:
     try:
