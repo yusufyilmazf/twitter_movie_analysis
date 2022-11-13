@@ -12,11 +12,10 @@ def get_data():
     pass
 
 
-driver = webdriver.Chrome(
-    "####")
+driver = webdriver.Chrome( "./chromedriver path")
 driver.set_window_size(1250, 740)
 driver.set_window_position(0, 0)
-driver.get("####")
+driver.get("URL")
 
 input("Press Enter To Continue...")
 get_data()
