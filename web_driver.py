@@ -1,4 +1,6 @@
 # Data Extraction from the website
+#https://sites.google.com/a/chromium.org/chromedriver/downloads
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
