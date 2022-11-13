@@ -12,8 +12,9 @@ auth = tweepy.OAuth1UserHandler(
   access_token_secret
 )
 
+# authorize twitter
 api = tweepy.API(auth)
-
+#search tweets
 tweets = api.search_tweets("####", tweet_mode="####")
 
 for tweet in tweets:
