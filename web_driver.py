@@ -15,11 +15,11 @@ def get_data():
 driver = webdriver.Chrome( "./chromedriver path")
 driver.set_window_size(1250, 740)
 driver.set_window_position(0, 0)
-driver.get("URL")
+driver.get("Website URL")
 
 input("Press Enter To Continue...")
 get_data()
-film_name_tag = driver.find_elements(By.TAG_NAME, '####')
+film_name_tag = driver.find_elements(By.TAG_NAME, '')
 
 for k in film_name_tag:
         print(k.text)
