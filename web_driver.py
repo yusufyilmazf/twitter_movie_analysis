@@ -21,7 +21,7 @@ input("Press Enter To Continue...")
 get_data()
 film_name_tag = driver.find_elements(By.TAG_NAME, 'tag name')
 movieCount = 0
-
+#limitation of data extraction
 for k in film_name_tag:
     while movieCount < 3:
         print(k.text)
