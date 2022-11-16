@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 tweets = api.search_tweets("####", tweet_mode="####")
 
 
-results =  tweepy_api.search_tweets(q="Hashtag Name", lang="tr",count=3, result_type="recent")
+results =  tweepy_api.search_tweets(q="Hashtag Name", lang="ISO 639-2 Language Code",count="Number of Requests", result_type="recent")
 for tweet in results:
     print("=====START=====")
     print ("Number of Tweet  : ",tweet_number) 
