@@ -20,8 +20,11 @@ driver.get("Website URL")
 input("Press Enter To Continue...")
 get_data()
 film_name_tag = driver.find_elements(By.TAG_NAME, 'tag name')
+movieCount = 0
 
 for k in film_name_tag:
+    while movieCount < 3:
         print(k.text)
+        movieCount += 1
         break
 
